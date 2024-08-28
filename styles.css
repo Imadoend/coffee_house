@@ -8,6 +8,7 @@ body{
     margin: 0%;
     padding: 0%;
     height: 100%;
+    background-color: white;box-shadow: inset 0px 0px 40px 40px #0000004a;
 }
 
 .a{
@@ -214,8 +215,8 @@ color: rgb(0, 0, 0);
 
 .classicLogo{
     font-family:Standard;
-    font-size: 3vw;
-    margin: 7% 5% 2% 5%;
+    font-size: 4vw;
+    margin: 7% 5% 0 5%;
 }
 
 
@@ -224,13 +225,21 @@ color: rgb(0, 0, 0);
     display: grid;
     column-gap: 3%;
     row-gap: 5%;
-    /* margin: 2% 5% 0 5% !important; */
         grid-template-columns: repeat(3,30%);
         grid-template-rows: 30% 30% 30%;
         justify-content: center;
         width: 100%;
+        margin-top: 1%;
 }
-
+.classic2{
+    display: grid;
+    column-gap: 3%;
+    row-gap: 5%;
+        grid-template-columns: repeat(3,30%);
+        grid-template-rows: 50% 50%;
+        justify-content: center;
+        width: 100%;
+}
 .classicCard{
     width:100%;
     height:110%;
@@ -265,7 +274,7 @@ aspect-ratio: 1 /1;
 .coffeeDescription{
     font-size: 2.3vw;
     padding: 3% 1% 0 1%;
-    height:100%;
+    height:auto;
     border:  dashed rgb(33, 25, 12) 2px;
     vertical-align: middle
     
@@ -477,6 +486,7 @@ margin-top:2%;
   .titata{
     padding:2rem 0.5rem;
   }
+  
   @media (hover: hover) and (pointer: fine) {
     .btn-up:hover {
       background-color: #502d18; /* цвет заднего фона при наведении */
@@ -486,6 +496,9 @@ margin-top:2%;
 
 
   @media (orientation: portrait) {
+    body{
+        box-shadow: inset 0px 0px 40px 40px #ffffff00;
+    }
     .a{
         height: 5%;}
     .am{
@@ -597,6 +610,20 @@ margin-top:2%;
         height: 20%;    
         justify-content: auto;
         grid-template-rows: 20% 19% 19% 19% 19%;
+    }
+    .classic2{
+        display: grid;
+column-gap: 5%;
+row-gap: 5%;
+height: auto !important;
+margin: 2% 0% 0 0%;
+row-gap: 4%;
+grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(40%, 40%));
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+    width: 100%;
+    grid-template-rows: 32% 32% 32%;
     }
     .coffeeName{
         font-size: 6vw;
