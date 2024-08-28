@@ -8,7 +8,7 @@ body{
     margin: 0%;
     padding: 0%;
     height: 100%;
-    background-color: white;box-shadow: inset 0px 0px 40px 40px #0000004a;
+    
 }
 
 .a{
@@ -218,7 +218,11 @@ color: rgb(0, 0, 0);
     font-size: 4vw;
     margin: 7% 5% 1% 5%;
 }
-
+.classicLogo2{
+    font-family:Standard;
+    font-size: 4vw;
+    margin: 2% 5% 1% 5%;
+}
 
 
 .classic{
@@ -234,7 +238,7 @@ color: rgb(0, 0, 0);
 .classic2{
     display: grid;
     column-gap: 3%;
-    row-gap: 5%;
+    row-gap: 2%;
         grid-template-columns: repeat(3,30%);
         grid-template-rows: 50% 50%;
         justify-content: center;
@@ -267,8 +271,56 @@ color: rgb(0, 0, 0);
     padding: 0;
     display: flex;
     flex-direction: column;
+    font-family:Incendio;
 }
-
+.SiropCard{
+    width:auto;
+    height:100%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    font-family:Incendio;
+    
+}
+.vseSiropy{
+    display: grid;
+        column-gap: 5%;
+        row-gap: 1%;
+            grid-template-columns: repeat(6,10%);
+            grid-template-rows: 50% 50%;
+            justify-content: center;
+            width: auto;
+            margin-top: 1%;
+            height:40%;
+            background-color: rgba(255, 255, 255, 0.564);
+            border-top: dotted 7px rgb(146, 105, 160);
+}
+.vseSiropy2{
+    display: grid;
+        column-gap: 5%;
+        row-gap: 1%;
+            grid-template-columns: repeat(6,10%);
+            grid-template-rows: 19% 19% 19% 19% 20%;
+            justify-content: center;
+            width: auto;
+            margin-top: 1%;
+            height:100%;
+            background-color: rgba(255, 255, 255, 0.564);
+            border-top: dotted 7px rgb(146, 105, 160);
+}
+.vseSiropy3{
+    display: grid;
+        column-gap: 5%;
+        row-gap: 1%;
+            grid-template-columns: repeat(6,10%);
+            grid-template-rows:  33% 33% 33%;
+            justify-content: center;
+            width: auto;
+            margin-top: 1%;
+            height:60%;
+            background-color: rgba(255, 255, 255, 0.564);
+            border-top: dotted 7px rgb(146, 105, 160);
+}
 .imgCoffee{
     height:50%;
     background-position: 50%,50%; 
@@ -276,25 +328,48 @@ background-size: 100%;
 background-repeat: no-repeat;
 aspect-ratio: 1 /1;
 }
+.imgCoffee2{
+    height:90%;
+    background-position: 50%,50%; 
+background-size: 100%; 
+background-repeat: no-repeat;
+aspect-ratio: 1 /1;
+background-position:  bottom;
+}
 .description{
     height:50%;
     padding: 0 5%;
-    font-family:Incendio;
-    
-    /* border-bottom:  dashed rgb(33, 25, 12) 2px;
-    border-left:  dashed rgb(33, 25, 12) 2px;
-    border-right:  dashed rgb(33, 25, 12) 2px; */
+   
     display: flex;
     flex-direction: column;
 }
+.description2{
+    height:10%;
+}
 .coffeeName{
     padding: 0 0 0 0;
-    height:20%;
+    height:auto;
     font-size: 2.6vw;
+}
+.coffeeName2{
+    background-color: white;
+    padding: 0 0 0 0;
+    height:auto;
+    margin-top:3%;
+    font-size: 2.6vw;
+    border:dashed rgb(33, 25, 12) 2px;
 }
 .coffeeDescription{
     font-size: 2.3vw;
     padding: 3% 1% 0 1%;
+    height:auto;
+    border:  dashed rgb(33, 25, 12) 2px;
+    vertical-align: middle
+    
+}
+.coffeeDescription2{
+    font-size: 1.3vw;
+    padding: 1% 0.2% 0 0.2% ;
     height:auto;
     border:  dashed rgb(33, 25, 12) 2px;
     vertical-align: middle
