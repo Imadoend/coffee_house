@@ -1,0 +1,622 @@
+html{
+    margin: 0%;
+    padding: 0%;
+    height: 300%;
+    overflow-x: hidden; 
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+
+.a{
+    background-image: url("holder.jpg") ;
+    background-repeat: no-repeat;
+    background-position: 50%,50%; 
+background-size: cover; 
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family:Incendio;
+    position:relative;
+padding-bottom:50px;
+
+
+-webkit-animation-duration: 4s;
+animation-duration: 4s;
+-webkit-animation-fill-mode: both;
+animation-fill-mode: both;
+-webkit-animation-name: fadeIn;
+animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+    @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    }
+.am{
+    background-image: url("Coffee_Lavandula_Cookies_442414_3840x2400.jpg") ;
+    background-repeat: no-repeat;
+    background-position: 50%,50%; 
+background-size: cover; 
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family:Incendio;
+    position:relative;
+padding-bottom:50px;
+
+}
+#aslogan{
+    
+    margin:auto 2% auto 62%;
+    
+    font-size: 3.7vw;
+    /* background-color: darkmagenta; */
+}
+
+#shapka{
+    display: flex;
+    font-size: 3.1vw;
+    /* margin: 6% 0 0 0; */
+    padding: 0 10% 1% 10%;
+    column-gap: 10%;
+    background-color: rgba(0, 0, 0, 0.486);
+    transition: 0.5s; /* Время эффекта */
+    position:absolute;
+bottom:0;
+width:100%;
+}
+
+#shapka:hover{
+    display: flex;
+    font-size: 3.1vw;
+    margin: 6% 0 0 0;
+    padding: 0 10% 1% 10%;
+    column-gap: 10%;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.429);
+}
+a.button {
+    text-decoration: none;
+}
+   
+#b{
+    display: flex;
+    padding: 4% 10% 0 16%;
+    height: auto;
+    column-gap: 20%;
+ 
+}
+
+#bimg{
+    /* background-color: greenyellow; */
+    width: 48%;
+}
+#bimg img{
+    width: 100%;
+    margin:5% 15%;
+    transition: 0.5s; /* Время эффекта */
+}
+
+   #bimg img:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+    
+   }
+
+#insta img:hover{
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#bslogan {
+    width: 50%;
+    font-family:Incendio;
+    font-size: 3vw;
+    border-top:  dashed rgb(33, 25, 12) 2px;
+    padding: 3% 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5%;
+}
+
+#bslogan img{
+    width: 47%;
+    margin-left: 26%;
+}
+
+#c{
+    padding: 2% 5%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(45%, 45%));
+    column-gap: 5%;
+    row-gap:10%;
+    height: 20%;    
+    justify-content: center;
+}
+
+
+
+
+.menuCoffee{
+    background-color: black;
+    width: 100%;
+    background-position: 50%,50%; 
+background-size: 100%; 
+color: white;
+    font-family:Incendio;
+    font-size: 2.5vw;
+    padding: 1% 0 0 4%;
+    transition: 0.2s; /* Время эффекта */
+    background-repeat: no-repeat;
+    
+}
+
+.menuCoffee:hover{
+    width: 100%;
+    background-position: 50%,50%; 
+background-size: 100%; 
+color: white;
+    font-family:Incendio;
+    font-size: 2.5vw;
+    padding: 1% 0 0 4%;
+    box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
+}
+
+
+.menuCoffeeText{
+    width: 100%;
+    height:100%;
+    background-position: 50%,50%; 
+background-size: 100%; 
+color: rgb(0, 0, 0);
+    font-family:Incendio;
+    font-size: 4.2vw;
+    padding: 4% 0 0 4%;
+    background-color: rgba(255, 255, 255, 0.806);
+    transition: 0.9s; /* Время эффекта */
+    text-align: center;
+    border: dotted black 3px;
+}
+.menuCoffeeText:hover{
+    width: 100%;
+    height:100%;
+    background-position: 50%,50%; 
+background-size: 100%; 
+color: rgb(0, 0, 0);
+    font-family:Incendio;
+    font-size: 4.7vw;
+    padding: 4% 0 0 4%;
+    background-color: rgba(255, 255, 255, 0.806);
+    transition: 0.9s; /* Время эффекта */
+    text-align: center;
+    border: dotted black 3px;
+}
+
+
+.classicLogo{
+    font-family:Standard;
+    font-size: 3vw;
+    margin: 7% 5% 2% 5%;
+}
+
+
+
+.classic{
+    display: grid;
+    column-gap: 3%;
+    row-gap: 5%;
+    /* margin: 2% 5% 0 5% !important; */
+        grid-template-columns: repeat(3,30%);
+        grid-template-rows: 30% 30% 30%;
+        justify-content: center;
+        width: 100%;
+}
+
+.classicCard{
+    width:100%;
+    height:110%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgCoffee{
+    height:50%;
+    background-position: 50%,50%; 
+background-size: 100%; 
+background-repeat: no-repeat;
+aspect-ratio: 1 /1;
+}
+.description{
+    height:50%;
+    padding: 0 5%;
+    font-family:Incendio;
+    
+    /* border-bottom:  dashed rgb(33, 25, 12) 2px;
+    border-left:  dashed rgb(33, 25, 12) 2px;
+    border-right:  dashed rgb(33, 25, 12) 2px; */
+    display: flex;
+    flex-direction: column;
+}
+.coffeeName{
+    padding: 0 0 0 0;
+    height:20%;
+    font-size: 2.6vw;
+}
+.coffeeDescription{
+    font-size: 2.3vw;
+    padding: 3% 1% 0 1%;
+    height:100%;
+    border:  dashed rgb(33, 25, 12) 2px;
+    vertical-align: middle
+    
+}
+font-face {
+	font-family: 'CzizhBody'; 
+	src: url(ofont.ru_Czizh.ttf); 
+}
+
+@font-face {
+	font-family: 'Incendio'; 
+	src: url(ofont.ru_Ebbe.ttf); 
+}
+
+@font-face {
+	font-family: 'CaressofSteel'; 
+	src: url(ofont.ru_Caress\ of\ Steel.ttf); 
+}
+
+@font-face {
+	font-family: 'Hero'; 
+	src: url(ofont.ru_Hero.ttf); 
+}
+
+@font-face {
+	font-family: 'Standard'; 
+	src: url(ofont.ru_Ebbe\ \(1\).ttf); 
+}
+#sliders{
+    display: flex;
+    margin:10% 30%;
+}
+
+
+
+
+a {
+    text-decoration: none;
+    color:inherit;
+}
+
+a:link {
+    text-decoration: none;
+    color:inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color:inherit;
+}
+
+a:focus {
+    text-decoration: none;
+    color:inherit;
+}
+
+a:hover {text-decoration: none;
+    color:inherit;
+}
+
+a:active {
+    text-decoration: none;
+    color:inherit;
+}
+
+/* 
+.slider {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+ 
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s;
+}
+ 
+.slide:first-child {
+  opacity: 1;
+} */
+
+
+
+
+
+#vernutsya{
+    margin:auto;
+    color: white;
+    font-family:Incendio;
+   
+}
+
+#glavnaya{
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center center;
+background-size: cover; 
+    background-image: url("orig.png") ;
+    background-position: 50%,50%; 
+background-size: 150%; 
+margin: 1% 30%;
+padding:auto;
+height: 100%;
+margin-top:2%;
+font-size: 2.5vw;
+    transition: 0.5s; /* Время эффекта */
+    
+}
+#glavnaya:hover{
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-position: center center;
+background-size: cover; 
+    background-image: url("orig.png") ;
+    background-position: 50%,50%; 
+background-size: 150%; 
+margin: 1% 30%;
+padding:auto;
+height: 100%;
+margin-top:2%;
+    font-size: 2.7vw;
+    transform: scale(1.2);
+}
+
+
+
+#simg{
+    width: 100%;
+}
+
+#simg img{
+    width: 100%;
+    margin:0% 10%;
+    transition: 0.5s; /* Время эффекта */
+}
+
+#simg img:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+   
+   }
+
+   #s{
+    display: flex;
+    padding: 2% 10% 0 2%;
+    height:auto;
+    column-gap: 15%;
+    
+   }
+   #stext{
+    width: 50%;
+    font-family:Incendio;
+    font-size: 3.4vw;
+    border-top:  dashed rgb(33, 25, 12) 2px;
+    padding: 3% 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5%;
+
+   }
+
+
+
+
+   .btn-up {
+    /* фиксированное позиционирование */
+    position: fixed;
+    /* цвет фона */
+    background-color: #452613;
+    /* расстояние от правого края окна браузера */
+    right: 20px;
+    /* расстояние от нижнего края окна браузера */
+    bottom: 0;
+    /* скругление верхнего левого угла */
+    border-top-left-radius: 8px;
+    /* скругление верхнего правого угла */
+    border-top-right-radius: 8px;
+    /* вид курсора */
+    cursor: pointer;
+    /* отображение элемента как flex */
+    display: flex;
+    /* выравниваем элементы внутри элемента по центру вдоль поперечной оси */
+    align-items: center;
+    /* выравниваем элементы внутри элемента по центру вдоль главной оси */
+    justify-content: center;
+    /* ширина элемента */
+    width: 60px;
+    /* высота элемента */
+    height: 50px;
+  }
+  
+  .btn-up::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z'/%3E%3C/svg%3E");
+  }
+  
+  .btn-up_hide {
+    display: none;
+  }
+  .titata{
+    padding:2rem 0.5rem;
+  }
+  @media (hover: hover) and (pointer: fine) {
+    .btn-up:hover {
+      background-color: #502d18; /* цвет заднего фона при наведении */
+    }
+    
+  }
+
+
+  @media (orientation: portrait) {
+    .a{
+        height: 5%;}
+    .am{
+            height: 7%;}
+            
+            
+            #glavnaya{
+                
+            background-size: 300%; 
+            margin-top:3% 0 0 0;
+            font-size: 6.5vw;
+                
+            }
+            #glavnaya:hover{
+                background-size: 300%; 
+            margin-top:3% 0 0 0;
+            font-size: 7.5vw;
+            }
+
+
+
+
+            #b{
+                display: flex;
+                padding: 4% 1% 0 1%;
+                height: auto;
+                column-gap: 15%;
+                
+            }
+            #shapka{
+                display: flex;
+                font-size: 6vw;
+                padding: 0 2% 1% 2%;
+                column-gap: 4%;
+                background-color: rgba(0, 0, 0, 0.486);
+                transition: 0.5s; /* Время эффекта */
+                position:absolute;
+            bottom:0;
+            width:100%;
+            }
+            #bimg{
+                /* background-color: greenyellow; */
+                width: 70%;
+            }
+            #bslogan {
+                width: 50%;
+                font-family:Incendio;
+                font-size: 6vw;
+                border-top:  dashed rgb(33, 25, 12) 2px;
+                padding: 3% 0;
+                display: flex;
+                flex-direction: column;
+                row-gap: 5%;
+            }
+            #c{
+                padding: 2% 0;
+                display: grid;
+                grid-gap: 10px;
+                grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+                column-gap: 5%;
+                row-gap:5%;
+                height: 40%;    
+                justify-content: center;
+            }
+            .menuCoffeeText{
+                width: auto;
+                height:auto;
+                background-position: 50%,50%; 
+            background-size: 100%; 
+            color: white;
+                font-family:Incendio;
+                font-size: 8vw;
+                padding: 5% 0 0 10%;
+                color: rgb(0, 0, 0);
+                background-color: rgba(255, 255, 255, 0.792);
+                transition: 0.9s; /* Время эффекта */
+                border:none;
+                border-bottom: dashed black 4px;
+            }
+            .menuCoffee{
+                border-radius: 5%;
+                padding:0;
+            }
+            .classicLogo{
+                font-family:Standard;
+                font-size: 10vw;
+                margin: 7% 5% 0 5%;
+            }
+            .classicCard{
+                width:100%;
+                height:auto;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+            }
+            .classicRow{
+                height:8%;
+  }
+
+  .classic{
+    display: grid;
+    height: auto !important;
+    margin: 2% 0% 0 0%;
+    row-gap: 4%;
+    grid-gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(40%, 40%));
+        column-gap: 5%;
+        row-gap:1%;
+        height: 20%;    
+        justify-content: auto;
+        grid-template-rows: 20% 19% 19% 19% 19%;
+    }
+    .coffeeName{
+        font-size: 6vw;
+        height:auto;
+    }
+    .coffeeDescription{
+        font-size: 4.5vw;
+        height:100%;
+        justify-content: auto;
+    }
+
+    .imgCoffee{
+        height: 60%;
+        aspect-ratio: 1/1;
+    }
+    .description{
+        height: 40%;
+    }
+    .titata{
+        display: none
+    }
+  }
+  
