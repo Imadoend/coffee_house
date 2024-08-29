@@ -623,7 +623,7 @@ margin-top:2%;
 
   @media (orientation: portrait) {
     body{
-        box-shadow: inset 0px 0px 40px 40px #ffffff00;
+        box-shadow: inset 0px 0px 40px 40px #ffffff;
     }
     .a{
         height: 5%;}
@@ -726,45 +726,46 @@ margin-top:2%;
 
   .classic{
     display: grid;
-    height: auto !important;
-    margin: 2% 0% 0 0%;
-    row-gap: 4%;
-    grid-gap: 10px;
-        grid-template-columns: repeat(auto-fill, minmax(40%, 40%));
-        column-gap: 5%;
-        row-gap:1%;
-        height: 20%;    
-        justify-content: auto;
-        grid-template-rows: 20% 19% 19% 19% 19%;
-    }
-    .classic2{
-        display: grid;
-column-gap: 5%;
-row-gap: 5%;
-height: auto !important;
-margin: 2% 0% 0 0%;
-row-gap: 4%;
-grid-gap: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(40%, 40%));
-    grid-template-rows: 50% 50%;
-    justify-content: center;
-    width: 100%;
-    }
+    column-gap: 3%;
+    row-gap: 5%;
+        grid-template-columns: repeat(2,45%);
+        grid-template-rows: auto;
+        justify-content: center;
+        width: 100%;
+        margin-top: 1%;
+}
+.classic2{
+    display: grid;
+    column-gap: 3%;
+    row-gap: 2%;
+    
+        grid-template-columns: repeat(2,45%);
+        grid-template-rows: auto;
+        justify-content: center;
+        width: 100%;
+}
 
-    .classic4{
-        display: grid;
-column-gap: 5%;
-row-gap: 5%;
-height: auto !important;
-margin: 2% 0% 0 0%;
-row-gap: 4%;
-grid-gap: 10px;
-    grid-template-columns: repeat(auto-fill, minmax(40%, 40%));
-    grid-template-rows: 50% 50%;
-    justify-content: center;
-    width: 100%;
-    grid-template-rows: 15% 15% 15% 15% 15%;
-    }
+.classic3{
+    display: grid;
+    column-gap: 3%;
+    row-gap: 5%;
+        grid-template-columns: repeat(2,45%);
+        grid-template-rows: min-content auto;
+        justify-content: center;
+        width: 100%;
+        margin-top: 1%;
+}
+.classic4{
+    display: grid;
+    column-gap: 3%;
+    row-gap: 2%;
+    height: auto;
+        grid-template-columns: repeat(2,45%);
+        grid-template-rows: 18% 18% 18% 18% 18% ;
+        justify-content: center;
+        width: 100%;
+        margin-top: 1%;
+}
     .coffeeName{
         font-size: 6vw;
         height:auto;
@@ -812,7 +813,7 @@ grid-gap: 10px;
     .coffeeName2{
         height:auto;
         font-size: 5vw;
-        box-shadow: 0 10px 4px -4px rgba(0, 0, 0, .2);
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
     }
     .vseSiropy{
         display: grid;
