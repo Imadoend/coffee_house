@@ -766,6 +766,14 @@ grid-gap: 10px;
         height: 60%;
         aspect-ratio: 1/1;
     }
+    .imgCoffee2{
+        height:100%;
+        background-position: 50%,50%; 
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    aspect-ratio: 1 /1;
+    background-position:  bottom;
+    }
     .description{
         height: 40%;
     }
@@ -780,7 +788,9 @@ grid-gap: 10px;
 
 
 
-
+    .SiropCard{
+        font-family:Incendio;
+    }
 
 
 
