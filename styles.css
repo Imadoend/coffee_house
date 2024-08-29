@@ -799,7 +799,9 @@ grid-gap: 10px;
 
 
 
-
+    .classicLogo2{
+        font-size: 11vw;
+    }
 
     .SiropCard{
         font-family:Incendio;
@@ -810,6 +812,7 @@ grid-gap: 10px;
     .coffeeName2{
         height:auto;
         font-size: 5vw;
+        box-shadow: 0 10px 4px -4px rgba(0, 0, 0, .2);
     }
     .vseSiropy{
         display: grid;
