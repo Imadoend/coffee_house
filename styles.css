@@ -279,7 +279,7 @@ color: rgb(0, 0, 0);
     padding: 0;
     display: flex;
     flex-direction: column;
-    font-family:Incendio;
+    font-family:LavanderiaC;
     
 }
 .vseSiropy{
@@ -300,7 +300,7 @@ color: rgb(0, 0, 0);
         column-gap: 5%;
         row-gap: 1%;
             grid-template-columns: repeat(6,10%);
-            grid-template-rows: 19% 19% 19% 19% 20%;
+            grid-template-rows: 19% 19% 19% 19% 19%;
             justify-content: center;
             width: auto;
             margin-top: 1%;
@@ -313,11 +313,24 @@ color: rgb(0, 0, 0);
         column-gap: 5%;
         row-gap: 1%;
             grid-template-columns: repeat(6,10%);
-            grid-template-rows:  33% 33% 33%;
+            grid-template-rows:  32% 32% 32%;
             justify-content: center;
             width: auto;
             margin-top: 1%;
             height:60%;
+            background-color: rgba(255, 255, 255, 0.564);
+            border-top: dotted 7px rgb(146, 105, 160);
+}
+.vseSiropy4{
+    display: grid;
+        column-gap: 5%;
+        row-gap: 1%;
+            grid-template-columns: repeat(6,10%);
+            grid-template-rows:  100;
+            justify-content: center;
+            width: auto;
+            margin-top: 1%;
+            height:20%;
             background-color: rgba(255, 255, 255, 0.564);
             border-top: dotted 7px rgb(146, 105, 160);
 }
@@ -356,8 +369,9 @@ background-position:  bottom;
     padding: 0 0 0 0;
     height:auto;
     margin-top:3%;
-    font-size: 2.6vw;
-    border:dashed rgb(33, 25, 12) 2px;
+    font-size: 2.3vw;
+    /* border:dashed rgb(33, 25, 12) 2px; */
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
 }
 .coffeeDescription{
     font-size: 2.3vw;
@@ -384,7 +398,10 @@ font-face {
 	font-family: 'Incendio'; 
 	src: url(ofont.ru_Ebbe.ttf); 
 }
-
+@font-face {
+	font-family: 'LavanderiaC'; 
+	src: url(ofont.ru_LavanderiaC.ttf); 
+}
 @font-face {
 	font-family: 'CaressofSteel'; 
 	src: url(ofont.ru_Caress\ of\ Steel.ttf); 
@@ -754,6 +771,71 @@ grid-gap: 10px;
     }
     .titata{
         display: none
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .vseSiropy{
+        display: grid;
+            column-gap: 5%;
+            row-gap: 1%;
+                grid-template-columns: repeat(3, 30%);
+                grid-template-rows: auto;
+                justify-content: center;
+                width: auto;
+                margin-top: 1%;
+                height:40%;
+                background-color: rgba(255, 255, 255, 0.564);
+                border-top: dotted 7px rgb(146, 105, 160);
+    }
+    .vseSiropy2{
+        display: grid;
+            column-gap: 5%;
+            row-gap: 1%;
+                grid-template-columns: repeat(3, 30%);
+                grid-template-rows: auto;
+                justify-content: center;
+                width: auto;
+                margin-top: 1%;
+                height:100%;
+                background-color: rgba(255, 255, 255, 0.564);
+                border-top: dotted 7px rgb(146, 105, 160);
+    }
+    .vseSiropy3{
+        display: grid;
+            column-gap: 5%;
+            row-gap: 1%;
+                grid-template-columns: repeat(3, 30%);
+                grid-template-rows:  auto;
+                justify-content: center;
+                width: auto;
+                margin-top: 1%;
+                height:60%;
+                background-color: rgba(255, 255, 255, 0.564);
+                border-top: dotted 7px rgb(146, 105, 160);
+    }
+    .vseSiropy4{
+        display: grid;
+            column-gap: 5%;
+            row-gap: 1%;
+                grid-template-columns: repeat(auto-fill, minmax(40%, 40%));
+                grid-template-rows:  auto;
+                justify-content: center;
+                width: auto;
+                margin-top: 1%;
+                height:20%;
+                background-color: rgba(255, 255, 255, 0.564);
+                border-top: dotted 7px rgb(146, 105, 160);
     }
   }
   
