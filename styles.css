@@ -334,6 +334,19 @@ color: rgb(0, 0, 0);
             background-color: rgba(255, 255, 255, 0.564);
             border-top: dotted 7px rgb(146, 105, 160);
 }
+.vseSiropy5{
+    display: grid;
+        column-gap: 5%;
+        row-gap: 1%;
+            grid-template-columns: repeat(6,10%);
+            grid-template-rows:  100;
+            justify-content: center;
+            width: auto;
+            margin-top: 1%;
+            height:20%;
+            background-color: rgba(255, 255, 255, 0.564);
+            border-top: dotted 7px rgb(146, 105, 160);
+}
 .imgCoffee{
     height:50%;
     background-position: 50%,50%; 
@@ -847,6 +860,19 @@ grid-gap: 10px;
                 width: auto;
                 margin-top: 1%;
                 height:20%;
+                background-color: rgba(255, 255, 255, 0.564);
+                border-top: dotted 7px rgb(146, 105, 160);
+    }
+    .vseSiropy5{
+        display: grid;
+        column-gap: 8%;
+        row-gap: 1%;
+            grid-template-columns: repeat(3, 25%);
+                grid-template-rows:  30% 30% 30%;
+                justify-content: center;
+                width: auto;
+                margin-top: 1%;
+                height:40%;
                 background-color: rgba(255, 255, 255, 0.564);
                 border-top: dotted 7px rgb(146, 105, 160);
     }
