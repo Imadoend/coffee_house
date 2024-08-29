@@ -800,9 +800,9 @@ grid-gap: 10px;
     }
     .vseSiropy{
         display: grid;
-            column-gap: 5%;
+            column-gap: 8%;
             row-gap: 1%;
-                grid-template-columns: repeat(3, 30%);
+                grid-template-columns: repeat(3, 25%);
                 grid-template-rows: auto;
                 justify-content: center;
                 width: auto;
@@ -813,9 +813,9 @@ grid-gap: 10px;
     }
     .vseSiropy2{
         display: grid;
-            column-gap: 5%;
-            row-gap: 1%;
-                grid-template-columns: repeat(3, 30%);
+        column-gap: 8%;
+        row-gap: 1%;
+            grid-template-columns: repeat(3, 25%);
                 grid-template-rows: auto;
                 justify-content: center;
                 width: auto;
@@ -826,9 +826,9 @@ grid-gap: 10px;
     }
     .vseSiropy3{
         display: grid;
-            column-gap: 5%;
-            row-gap: 1%;
-                grid-template-columns: repeat(3, 30%);
+        column-gap: 8%;
+        row-gap: 1%;
+            grid-template-columns: repeat(3, 25%);
                 grid-template-rows:  auto;
                 justify-content: center;
                 width: auto;
@@ -839,9 +839,9 @@ grid-gap: 10px;
     }
     .vseSiropy4{
         display: grid;
-            column-gap: 5%;
-            row-gap: 1%;
-                grid-template-columns: repeat(auto-fill, minmax(40%, 40%));
+        column-gap: 8%;
+        row-gap: 1%;
+            grid-template-columns: repeat(3, 25%);
                 grid-template-rows:  auto;
                 justify-content: center;
                 width: auto;
