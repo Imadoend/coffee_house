@@ -769,7 +769,7 @@ grid-gap: 10px;
     .imgCoffee2{
         height:100%;
         background-position: 50%,50%; 
-    background-size: 100%; 
+    background-size: 80%; 
     background-repeat: no-repeat;
     aspect-ratio: 1 /1;
     background-position:  bottom;
@@ -794,7 +794,10 @@ grid-gap: 10px;
 
 
 
-
+    .coffeeName2{
+        height:auto;
+        font-size: 5vw;
+    }
     .vseSiropy{
         display: grid;
             column-gap: 5%;
