@@ -282,6 +282,8 @@ color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     font-family:Incendio;
+    box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+background-color: white;
 }
 .SiropCard{
     width:auto;
@@ -839,7 +841,7 @@ margin-top:2%;
     .coffeeName2{
         height:auto;
         font-size: 5vw;
-        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, .2);
+        box-shadow: 0 6px 4px -4px rgba(0, 0, 0, 0.2);
     }
     .vseSiropy{
         display: grid;
