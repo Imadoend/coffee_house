@@ -254,7 +254,15 @@ color: rgb(0, 0, 0);
         justify-content: center;
         width: 100%;
 }
-
+.classicAvt{
+    display: grid;
+    column-gap: 3%;
+    row-gap: 2%;
+        grid-template-columns: repeat(3,30%);
+        grid-template-rows: 50% 50%;
+        justify-content: center;
+        width: 100%;
+}
 .classic3{
     display: grid;
     column-gap: 3%;
@@ -798,7 +806,16 @@ margin-top:2%;
         justify-content: center;
         width: 100%;
 }
-
+.classicAvt{
+    display: grid;
+    column-gap: 3%;
+    row-gap: 2%;
+    
+        grid-template-columns: repeat(2,45%);
+        grid-template-rows: 50% 50%;
+        justify-content: center;
+        width: 100%;
+}
 .classic3{
     display: grid;
     column-gap: 3%;
