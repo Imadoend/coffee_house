@@ -440,10 +440,6 @@ background-position:  bottom;
     vertical-align: middle
     
 }
-font-face {
-	font-family: 'CzizhBody'; 
-	src: url(fonts/ofont.ru_Czizh.ttf); 
-}
 
 @font-face {
 	font-family: 'Incendio'; 
@@ -453,20 +449,12 @@ font-face {
 	font-family: 'LavanderiaC'; 
 	src: url(fonts/ofont.ru_LavanderiaC.ttf); 
 }
-@font-face {
-	font-family: 'CaressofSteel'; 
-	src: url(fonts/ofont.ru_Caress\ of\ Steel.ttf); 
-}
-
-@font-face {
-	font-family: 'Hero'; 
-	src: url(fonts/ofont.ru_Hero.ttf); 
-}
 
 @font-face {
 	font-family: 'Standard'; 
 	src: url(fonts/ofont.ru_Ebbe\ \(1\).ttf); 
 }
+
 #sliders{
     display: flex;
     margin:10% 30%;
