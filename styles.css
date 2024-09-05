@@ -697,6 +697,18 @@ margin-top:2%;
             bottom:0;
             width:100%;
             }
+            #shapka:hover{
+                display: flex;
+                font-size: 6vw;
+                padding: 0 2% 1% 2%;
+                color: black;
+                column-gap: 4%;
+                background-color: rgba(255, 255, 255, 0.486);
+                position:absolute;
+            bottom:0;
+            width:100%;
+            transform: scale(1.1);
+            }
             #bimg{
                 /* background-color: greenyellow; */
                 width: 70%;
