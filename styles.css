@@ -748,6 +748,20 @@ margin-top:2%;
                 border:none;
                 border-bottom: dashed black 4px;
             }
+            .menuCoffeeText:hover{
+                width: auto;
+                height:auto;
+                background-position: 50%,50%; 
+            background-size: 100%; 
+            color: white;
+                font-family:Incendio;
+                font-size: 8.2vw;
+                padding: 5% 0 0 10%;
+                color: rgb(0, 0, 0);
+                background-color: rgba(255, 255, 255, 0.792);
+                border:none;
+                border-bottom: dashed black 4px;
+            }
             .menuCoffee{
                 border-radius: 5%;
                 padding:0;
