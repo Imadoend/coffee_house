@@ -345,7 +345,7 @@ color: rgb(0, 0, 0);
     display: grid;
         column-gap: 5%;
         row-gap: 1%;
-            grid-template-columns: repeat(6,10%);
+            grid-template-columns: repeat(4,25%);
             grid-template-rows:  100;
             justify-content: center;
             width: auto;
