@@ -443,7 +443,7 @@ background-position:  bottom;
 
 @font-face {
 	font-family: 'Incendio'; 
-	src: url(fonts/ofont.ru_Ebbe.ttf); 
+	src: url(fonts/ofont.ru_Incendio.ttf); 
 }
 @font-face {
 	font-family: 'LavanderiaC'; 
@@ -452,7 +452,7 @@ background-position:  bottom;
 
 @font-face {
 	font-family: 'Standard'; 
-	src: url(fonts/ofont.ru_Ebbe\ \(1\).ttf); 
+	src: url(fonts/ofont.ru_Standard.ttf); 
 }
 
 #sliders{
