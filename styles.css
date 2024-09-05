@@ -10,7 +10,8 @@ body{
     height: 100%;
     
 }
-/* шапка главной страницы */
+
+/* ШАПКА ГЛАВНОЙ СТРАНИЦЫ */
 .a{
     background-image: url("images/holder.jpg") ;
     background-repeat: no-repeat;
@@ -39,6 +40,8 @@ animation-name: fadeIn;
     0% {opacity: 0;}
     100% {opacity: 1;}
     }
+
+/* ВЕРНУТЬСЯ НА ГЛАВНУЮ */
 .am{
     background-image: url("images/Coffee_Lavandula_Cookies_442414_3840x2400.jpg") ;
     background-repeat: no-repeat;
@@ -53,14 +56,14 @@ background-size: cover;
 padding-bottom:50px;
 
 }
+
+/* СЛОГАН В ШАПКЕ ГЛАВНОЙ СТРАНИЦЫ */
 #aslogan{
-    
     margin:auto 2% auto 62%;
-    
     font-size: 3.7vw;
-    /* background-color: darkmagenta; */
 }
 
+/* МЕНЮ С СЫЛКАМИ НА ДРУГИЕ СТРАНИЦЫ В ШАПКЕ НА ГЛАВНОЙ */
 #shapka{
     display: flex;
     font-size: 3.1vw;
@@ -83,10 +86,12 @@ width:100%;
     color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.429);
 }
+/* хз */
 a.button {
     text-decoration: none;
 }
    
+/* ИЗОБРАЖЕНИЕ И ЦИТАТА ПРО КОФЕ НА ГЛАВНОЙ */
 #b{
     display: flex;
     padding: 4% 10% 0 16%;
@@ -95,6 +100,7 @@ a.button {
  
 }
 
+/* КАРТИНКА К ЦИТАТЕ ПРО КОФЕ НА ГЛАВНОЙ */
 #bimg{
     /* background-color: greenyellow; */
     width: 48%;
@@ -105,26 +111,15 @@ a.button {
     transition: 0.5s; /* Время эффекта */
 }
 
-   #bimg img:hover {
+#bimg img:hover {
     transform: scale(1.1); /* Увеличиваем масштаб */
-    
-   }
+}
 
 #insta img:hover{
     transform: scale(1.1); /* Увеличиваем масштаб */
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/* ЦИТАТА ПРО КОФЕ НА ГЛАВНОЙ */
 #bslogan {
     width: 50%;
     font-family:Incendio;
@@ -141,6 +136,7 @@ a.button {
     margin-left: 26%;
 }
 
+/* МЕНЮ ГИПЕРССЫЛОК НА КАТЕГОРИЮ НАПИТКОВ */
 #c{
     padding: 2% 5%;
     display: grid;
@@ -152,9 +148,7 @@ a.button {
     justify-content: center;
 }
 
-
-
-
+/* ГИПЕРССЫЛКА НА САМУ КАТЕГОРИЮ */
 .menuCoffee{
     background-color: black;
     width: 100%;
@@ -180,7 +174,7 @@ color: white;
     box-shadow: 0px -5px 10px 0px rgba(0, 0, 0, 0.5)
 }
 
-
+/* ТЕКСТ В ССЫЛКЕ НА КАТЕГОРИЮ */
 .menuCoffeeText{
     width: 100%;
     height:100%;
