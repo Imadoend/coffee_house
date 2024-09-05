@@ -1,20 +1,3 @@
-@font-face {
-	font-family: 'Incendio'; 
-	src: url(fonts/ofont.ru_Incendio.ttf); 
-}
-@font-face {
-	font-family: 'LavanderiaC'; 
-	src: url(fonts/ofont.ru_LavanderiaC.ttf); 
-}
-
-@font-face {
-	font-family: 'Standard'; 
-	src: url(fonts/ofont.ru_Standard.ttf); 
-}
-
-
-
-
 html{
     margin: 0%;
     padding: 0%;
