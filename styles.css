@@ -592,7 +592,10 @@ margin-top:2%;
     row-gap: 5%;
 
    }
-
+.comments{
+    margin: auto;
+    width:50%;height:30%;
+}
 
 
 
@@ -970,6 +973,9 @@ margin-top:2%;
                 height:40%;
                 background-color: rgba(255, 255, 255, 0.564);
                 border-top: dotted 7px rgb(146, 105, 160);
+    }
+    .comments{
+        width:100%;height:20%;
     }
   }
   
