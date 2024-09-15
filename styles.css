@@ -900,9 +900,12 @@ margin-top:2%;
 
     .SiropCard{
         font-family:LavanderiaC;
+        transition: 0.5s; /* Время эффекта */
     }
 
-
+    .SiropCard:hover{
+        transform: scale(1.1); /* Увеличиваем масштаб */
+    }
 
     .coffeeName2{
         height:auto;
