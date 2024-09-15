@@ -409,14 +409,7 @@ background-repeat: no-repeat;
 aspect-ratio: 1 /1;
 background-position:  bottom;
 }
-.imgMoloko{
-    height:90%;
-    background-position: 50%,50%; 
-background-size: 100%; 
-background-repeat: no-repeat;
-aspect-ratio: 1 /1;
-background-position:  bottom;
-}
+
 .descriptionC{
     height:30%;
     padding: 0 5%;
