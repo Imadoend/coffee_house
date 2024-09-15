@@ -300,7 +300,13 @@ color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     font-family:LavanderiaC;
+    transition: 0.5s; /* Время эффекта */
     
+}
+
+
+.SiropCard:hover{
+    transform: scale(1.1); /* Увеличиваем масштаб */
 }
 .vseSiropy{
     display: grid;
@@ -965,6 +971,19 @@ margin-top:2%;
                 border-top: dotted 7px rgb(146, 105, 160);
     }
     .vseSiropy5{
+        display: grid;
+        column-gap: 8%;
+        row-gap: 1%;
+            grid-template-columns: repeat(3, 25%);
+                grid-template-rows:  30% 30% 30%;
+                justify-content: center;
+                width: auto;
+                margin-top: 1%;
+                height:40%;
+                background-color: rgba(255, 255, 255, 0.564);
+                border-top: dotted 7px rgb(146, 105, 160);
+    }
+    .Moloko{
         display: grid;
         column-gap: 8%;
         row-gap: 1%;
