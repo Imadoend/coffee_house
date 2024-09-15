@@ -260,7 +260,7 @@ color: rgb(0, 0, 0);
     column-gap: 3%;
     row-gap: 5%;
         grid-template-columns: repeat(3,30%);
-        grid-template-rows: 30% 30% 30%;
+        grid-template-rows: 33% 33% 33%;
         justify-content: center;
         width: 100%;
         margin-top: 1%;
