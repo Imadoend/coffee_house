@@ -384,7 +384,7 @@ color: rgb(0, 0, 0);
         margin-top: 1%;
         height:20%;
         background-color: rgba(255, 255, 255, 0.564);
-        border-top: dotted 7px rgb(123, 160, 105);
+        border-top: dotted 7px rgb(255, 255, 255);
 }
 .imgCake{
     height:auto;
