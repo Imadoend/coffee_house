@@ -306,7 +306,7 @@ color: rgb(0, 0, 0);
 
 
 .SiropCard:hover{
-    transform: scale(1.5); /* Увеличиваем масштаб */
+    transform: scale(1.1); /* Увеличиваем масштаб */
 }
 .vseSiropy{
     display: grid;
