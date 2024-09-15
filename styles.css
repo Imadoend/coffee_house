@@ -377,14 +377,14 @@ color: rgb(0, 0, 0);
     display: grid;
     column-gap: 5%;
     row-gap: 1%;
-        grid-template-columns: 10% 10% 10% 10% 13%;
+        grid-template-columns: 10% 10% 10% 10% 10% 10%;
         grid-template-rows:  100;
         justify-content: center;
         width: auto;
         margin-top: 1%;
         height:20%;
         background-color: rgba(255, 255, 255, 0.564);
-        border-top: dotted 7px rgb(146, 105, 160);
+        border-top: dotted 7px rgb(123, 160, 105);
 }
 .imgCake{
     height:auto;
