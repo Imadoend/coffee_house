@@ -464,15 +464,18 @@ background-position:  bottom;
 @font-face {
 	font-family: 'Incendio'; 
 	src: url(fonts/ofont.ru_Incendio.ttf); 
+	font-display: swap;
 }
 @font-face {
 	font-family: 'LavanderiaC'; 
 	src: url(fonts/ofont.ru_LavanderiaC.ttf); 
+	font-display: swap;
 }
 
 @font-face {
 	font-family: 'Standard'; 
 	src: url(fonts/ofont.ru_Standard.ttf); 
+	font-display: swap;
 }
 
 #sliders{
@@ -1015,5 +1018,6 @@ margin-top:2%;
     }
   }
   
+
 
 
