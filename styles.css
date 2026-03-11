@@ -217,14 +217,14 @@ color: rgb(0, 0, 0);
 }
 
 .classicCake{
-    display: grid;
+   display: grid;
     column-gap: 3%;
-    row-gap: 1%;
-        grid-template-columns: repeat(3,30%);
-        grid-template-rows: 25% 25% 25% 25%;
-        justify-content: center;
-        width: 100%;
-        margin-top: 1%;
+    row-gap: 1%; /* Отступ между рядами будет подстраиваться под контент */
+    grid-template-columns: repeat(3,30%);
+    grid-template-rows: auto; /* Или просто удали эту строку полностью, по дефолту там auto */
+    justify-content: center;
+    width: 100%;
+    margin-top: 1%;
 }
 
 .classic{
@@ -1015,3 +1015,4 @@ margin-top:2%;
     }
   }
   
+
