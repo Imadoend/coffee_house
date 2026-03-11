@@ -349,16 +349,16 @@ color: rgb(0, 0, 0);
 }
 .vseSiropy4{
     display: grid;
-        column-gap: 5%;
-        row-gap: 1%;
-            grid-template-columns: repeat(4,10%);
-            grid-template-rows:  100;
-            justify-content: center;
-            width: auto;
-            margin-top: 1%;
-            height:20%;
-            background-color: rgba(255, 255, 255, 0.564);
-            border-top: dotted 7px rgb(146, 105, 160);
+    column-gap: 5%;
+    row-gap: 1%;
+    grid-template-columns: repeat(4,10%);
+    grid-template-rows: auto; 
+    justify-content: center;
+    width: auto;
+    margin-top: 1%;
+    height:20%;
+    background-color: rgba(255, 255, 255, 0.564);
+    border-top: dotted 7px rgb(146, 105, 160);
 }
 .vseSiropy5{
     display: grid;
@@ -1015,4 +1015,5 @@ margin-top:2%;
     }
   }
   
+
 
